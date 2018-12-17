@@ -1,213 +1,604 @@
 {
-    "version": "2.0.0",
-    "discord": {
-        "clientId": "0",
-        "smallImageText": "Embernite.net",
-        "smallImageKey": "ember-logo-512"
-    },
-    "java": {
-        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
-    },
-    "rss": "https://resist.network/feed/",
-    "servers": [
+  "version": "2.0.0",
+  "discord": {
+    "clientId": "0",
+    "smallImageText": "Embernite.net",
+    "smallImageKey": "ember-logo-512"
+  },
+  "java": {
+    "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+  },
+  "rss": "https://resist.network/feed/",
+  "servers": [
+    {
+      "id": "main",
+      "name": "Embernite Main Server",
+      "description": "You shall not pass!",
+      "icon": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/pack.png",
+      "version": "2.0.0",
+      "address": "game.embernite.net",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "Embernite",
+        "largeImageText": "Embernite.net",
+        "largeImageKey": "ember-background"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
         {
-            "id": "main",
-            "name": "Embernite Main Server",
-            "description": "You shall not pass!",
-            "icon": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/pack.png",
-            "version": "2.0.0",
-            "address": "game.embernite.net",
-            "minecraftVersion": "1.12.2",
-            "discord": {
-                "shortId": "Embernite",
-                "largeImageText": "Embernite.net",
-                "largeImageKey": "ember-background"
+          "id": "net.minecraftforge:forge:1.12.2",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4450992,
+            "MD5": "761de9c6f5ad7d5b1b29552266c85169",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/forge-1.12.2-14.23.5.2768-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "net.minecraft:launchwrapper:1.12",
+              "name": "Mojang LaunchWrapper",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/launchwrapper-1.12.jar"
+              }
             },
-            "mainServer": true,
-            "autoconnect": false,
-			"modules": [
-				{
-                    "id": "net.minecraftforge:forge:1.12.2",
-                    "name": "Minecraft Forge",
-                    "type": "ForgeHosted",
-                    "artifact": {
-                        "size": 4450992,
-                        "MD5": "761de9c6f5ad7d5b1b29552266c85169",
-                        "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/forge-1.12.2-14.23.5.2768-universal.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "net.minecraft:launchwrapper:1.12",
-                            "name": "Mojang LaunchWrapper",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 32999,
-                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/launchwrapper-1.12.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-all:5.2",
-                            "name": "ASM",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 241639,
-                                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/asm-all-5.2.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-library:2.11.1",
-                            "name": "Scala Library",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1474672,
-                                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-library-2.11.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-compiler:2.11.1",
-                            "name": "Scala Compiler",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 3076920,
-                                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-compiler-2.11.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
-                            "name": "Scala Actors Migration",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 21324,
-                                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-actors-migration_2.11-1.1.0.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
-                            "name": "Scala Continuations Library",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 7956,
-                                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-continuations-library_2.11-1.0.2.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
-                            "name": "Scala  Continuations Plugin)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 46140,
-                                "MD5": "a8232db22a72a981de6b1399eb86dff7",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-continuations-plugin_2.11.1-1.0.2.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
-                            "name": "Scala Parser Combinators",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 85568,
-                                "MD5": "2e50a7df17680daadacca69f07f8a16d",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-parser-combinators_2.11-1.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-reflect:2.11.1",
-                            "name": "Scala Reflect",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1070312,
-                                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-reflect-2.11.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-swing_2.11:1.0.1",
-                            "name": "Scala Swing",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 736795,
-                                "MD5": "1d360289e697022a3f57abaad344b28f",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-swing_2.11-1.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.scala-lang:scala-xml_2.11:1.0.2",
-                            "name": "Scala XML",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 217812,
-                                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-xml_2.11-1.0.2.jar"
-                            }
-                        },
-                        {
-                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3",
-                            "name": "AKKA Actor",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 746612,
-                                "MD5": "25cb22c3078e9fb3f7a861c912924862",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/akka-actor_2.11-2.3.3.jar"
-                            }
-                        },
-                        {
-                            "id": "com.typesafe:config:1.2.1",
-                            "name": "TypeSafe Config",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 56636,
-                                "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/config-1.2.1.jar"
-                            }
-                        },
-                        {
-                            "id": "lzma:lzma:0.0.1",
-                            "name": "LZMA",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 5762,
-                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/lzma-0.0.1.jar"
-                            }
-                        },
-                        {
-                            "id": "net.sf.trove4j:trove4j:3.0.3",
-                            "name": "Trove4J",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2523218,
-                                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/trove4j-3.0.3.jar"
-                            }
-                        },
-                        {
-                            "id": "java3d:vecmath:1.5.2",
-                            "name": "Vecmath",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 318956,
-                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/vecmath-1.5.2.jar"
-                            }
-                        },
-                        {
-                            "id": "org.apache.maven:maven-artifact:3.5.3",
-                            "name": "Maven Artifact",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 318956,
-                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/maven-artifact-3.5.3.jar"
-                            }
-                        }
-                    ]
-		},
-]
-		}]
+            {
+              "id": "org.ow2.asm:asm-all:5.2",
+              "name": "ASM",
+              "type": "Library",
+              "artifact": {
+                "size": 241639,
+                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/asm-all-5.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1",
+              "name": "Scala Library",
+              "type": "Library",
+              "artifact": {
+                "size": 1474672,
+                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1",
+              "name": "Scala Compiler",
+              "type": "Library",
+              "artifact": {
+                "size": 3076920,
+                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
+              "name": "Scala Actors Migration",
+              "type": "Library",
+              "artifact": {
+                "size": 21324,
+                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
+              "name": "Scala Continuations Library",
+              "type": "Library",
+              "artifact": {
+                "size": 7956,
+                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-continuations-library_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
+              "name": "Scala  Continuations Plugin)",
+              "type": "Library",
+              "artifact": {
+                "size": 46140,
+                "MD5": "a8232db22a72a981de6b1399eb86dff7",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-continuations-plugin_2.11.1-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
+              "name": "Scala Parser Combinators",
+              "type": "Library",
+              "artifact": {
+                "size": 85568,
+                "MD5": "2e50a7df17680daadacca69f07f8a16d",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1",
+              "name": "Scala Reflect",
+              "type": "Library",
+              "artifact": {
+                "size": 1070312,
+                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1",
+              "name": "Scala Swing",
+              "type": "Library",
+              "artifact": {
+                "size": 736795,
+                "MD5": "1d360289e697022a3f57abaad344b28f",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2",
+              "name": "Scala XML",
+              "type": "Library",
+              "artifact": {
+                "size": 217812,
+                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3",
+              "name": "AKKA Actor",
+              "type": "Library",
+              "artifact": {
+                "size": 746612,
+                "MD5": "25cb22c3078e9fb3f7a861c912924862",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1",
+              "name": "TypeSafe Config",
+              "type": "Library",
+              "artifact": {
+                "size": 56636,
+                "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1",
+              "name": "LZMA",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3",
+              "name": "Trove4J",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2",
+              "name": "Vecmath",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3",
+              "name": "Maven Artifact",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/libraries/maven-artifact-3.5.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.embernite:mod:dc9c",
+          "name": "# LibLoader",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 23934,
+            "path": "/modstore/# LibLoader.jar",
+            "MD5": "dc9c407ac72708942ade074049d97e00",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/#%20LibLoader.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:d36f",
+          "name": "BetterFps-1.4.8",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 155196,
+            "path": "/modstore/BetterFps-1.4.8.jar",
+            "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/BetterFps-1.4.8.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:dbda",
+          "name": "Chisel-MC1.12.2-0.2.1.35.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 4310011,
+            "path": "/modstore/Chisel-MC1.12.2-0.2.1.35.jar.disabled",
+            "MD5": "dbda5475859bcffc9f572c5a1506a1f4",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/Chisel-MC1.12.2-0.2.1.35.jar.disabled"
+          }
+        },
+        {
+          "id": "net.embernite:mod:f8b4",
+          "name": "CodeChickenLib-1.12.2-3.2.2.353-universal",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 700785,
+            "path": "/modstore/CodeChickenLib-1.12.2-3.2.2.353-universal.jar",
+            "MD5": "f8b4843eccafb2213512ba9be17bfad2",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/CodeChickenLib-1.12.2-3.2.2.353-universal.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:7739",
+          "name": "DynamicTrees-1.12.2-0.8.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 585370,
+            "path": "/modstore/DynamicTrees-1.12.2-0.8.2.jar.disabled",
+            "MD5": "7739e6c09a9fcc96ae7953d8cbccfde4",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/DynamicTrees-1.12.2-0.8.2.jar.disabled"
+          }
+        },
+        {
+          "id": "net.embernite:mod:f1af",
+          "name": "Decocraft-2.6.2_1.12.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 16304269,
+            "path": "/modstore/Decocraft-2.6.2_1.12.2.jar.disabled",
+            "MD5": "f1af752dd335560a3429242e361d15a4",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/Decocraft-2.6.2_1.12.2.jar.disabled"
+          }
+        },
+        {
+          "id": "net.embernite:mod:7f9c",
+          "name": "dynmap-2.6-beta-1",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 5114369,
+            "path": "/modstore/dynmap-2.6-beta-1.jar",
+            "MD5": "7f9c1091dd03375f07281e5ad937f185",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/dynmap-2.6-beta-1.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:ed18",
+          "name": "FastAsyncWorldEdit-forge112-18.10.25-626169a-1227-21.5.14",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 5593209,
+            "path": "/modstore/FastAsyncWorldEdit-forge112-18.10.25-626169a-1227-21.5.14.jar",
+            "MD5": "ed18f5ecae8a95f4ea5c695c6db8e9e5",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/FastAsyncWorldEdit-forge112-18.10.25-626169a-1227-21.5.14.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:7484",
+          "name": "jei_1.12.2-4.12.1.217",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 584096,
+            "path": "/modstore/jei_1.12.2-4.12.1.217.jar",
+            "MD5": "7484928be203b32c0d4af2df9914dbc3",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/jei_1.12.2-4.12.1.217.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:a4b7",
+          "name": "ForgeMultipart-1.12.2-2.6.0.79-universal",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1304717,
+            "path": "/modstore/ForgeMultipart-1.12.2-2.6.0.79-universal.jar",
+            "MD5": "a4b7b4319d42dfc188f0258764031af9",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/ForgeMultipart-1.12.2-2.6.0.79-universal.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:ca31",
+          "name": "journeymapdefaults-1.0",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 12166,
+            "path": "/modstore/journeymapdefaults-1.0.jar",
+            "MD5": "ca31d3265e17ba53644be979be226506",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/journeymapdefaults-1.0.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:b743",
+          "name": "journeymap-1.12.2-5.5.2",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1822850,
+            "path": "/modstore/journeymap-1.12.2-5.5.2.jar",
+            "MD5": "b743562dac1b5334c20ac87b54c0b518",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/journeymap-1.12.2-5.5.2.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:cd8e",
+          "name": "lagbgonreborn-1.0.0.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 16771,
+            "path": "/modstore/lagbgonreborn-1.0.0.jar.disabled",
+            "MD5": "cd8e47e59b74a22b4323b35de555a7f6",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/lagbgonreborn-1.0.0.jar.disabled"
+          }
+        },
+        {
+          "id": "net.embernite:mod:97ff",
+          "name": "NetherPortalFix_1.12.1-5.3.17",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 109445,
+            "path": "/modstore/NetherPortalFix_1.12.1-5.3.17.jar",
+            "MD5": "97ff3e60aa9725cedbc64f19e179f813",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/NetherPortalFix_1.12.1-5.3.17.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:6f4b",
+          "name": "OpenTerrainGenerator-1.12.2+-+v6.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1138314,
+            "path": "/modstore/OpenTerrainGenerator-1.12.2+-+v6.jar.disabled",
+            "MD5": "6f4bcf42544bf1b0795078ab8c4219cd",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/OpenTerrainGenerator-1.12.2+-+v6.jar.disabled"
+          }
+        },
+        {
+          "id": "net.embernite:mod:5087",
+          "name": "OTG-Core.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 13665,
+            "path": "/modstore/OTG-Core.jar.disabled",
+            "MD5": "50876f4b88d1b9aaf4efe7b01bbb0f8d",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/OTG-Core.jar.disabled"
+          }
+        },
+        {
+          "id": "net.embernite:mod:09c1",
+          "name": "PTRLib-1.0.3",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 169399,
+            "path": "/modstore/PTRLib-1.0.3.jar",
+            "MD5": "09c1721819d1ddd02ca01f97d7ac8eda",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/PTRLib-1.0.3.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:7ecf",
+          "name": "RealisticItemDrops-1.2.14.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 65733,
+            "path": "/modstore/RealisticItemDrops-1.2.14.jar.disabled",
+            "MD5": "7ecff9f80b9cd0986b18489405136e81",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/RealisticItemDrops-1.2.14.jar.disabled"
+          }
+        },
+        {
+          "id": "net.embernite:mod:99bf",
+          "name": "spongeforge-1.12.2-2768-7.1.4",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 21024794,
+            "path": "/modstore/spongeforge-1.12.2-2768-7.1.4.jar",
+            "MD5": "99bff36b877c3e85ab52e11c6878478b",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/spongeforge-1.12.2-2768-7.1.4.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:b836",
+          "name": "stg-1.12.2-1.2.3.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 24024,
+            "path": "/modstore/stg-1.12.2-1.2.3.jar.disabled",
+            "MD5": "b836648006f1451c65d33f7132eec770",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/stg-1.12.2-1.2.3.jar.disabled"
+          }
+        },
+        {
+          "id": "net.embernite:mod:44b1",
+          "name": "WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.0.2487",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 461808,
+            "path": "/modstore/WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.0.2487.jar",
+            "MD5": "44b1b1031c25f04955bfd7ed734bd467",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.0.2487.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:0ad4",
+          "name": "TickProfiler-1.12-0.0.4",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 637781,
+            "path": "/modstore/TickProfiler-1.12-0.0.4.jar",
+            "MD5": "0ad4903b26054386e040badc580ccb78",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/TickProfiler-1.12-0.0.4.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:73ec",
+          "name": "worldedit-forge-mc1.12-6.1.8-dist",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1470354,
+            "path": "/modstore/worldedit-forge-mc1.12-6.1.8-dist.jar",
+            "MD5": "73ecbb8656a5fd5823852078f0fb7ca7",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/worldedit-forge-mc1.12-6.1.8-dist.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:6afc",
+          "name": "ChickenASM-1.12-1.0.2.7",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 55622,
+            "path": "/modstore/1.12.2/ChickenASM-1.12-1.0.2.7.jar",
+            "MD5": "6afc6ad00fd6bacd0c5b35d8342f0f79",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:cc73",
+          "name": "config",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 337,
+            "path": "/modstore/bStats/config.yml",
+            "MD5": "cc7364f6f74096bea8a1dad5c18e3d61",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/bStats/config.yml"
+          }
+        },
+        {
+          "id": "net.embernite:mod:08bb",
+          "name": "temp",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 37,
+            "path": "/modstore/bStats/temp.txt",
+            "MD5": "08bb261c4b01697c9669a57dd2ce50db",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/bStats/temp.txt"
+          }
+        }
+      ]
+    }
+  ]
 }
