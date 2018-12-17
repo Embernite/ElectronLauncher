@@ -114,7 +114,7 @@ dir.files('../mod-pack', function(err, files) {
 			if (err) {
 				return console.log(err)
 			}
-			var result = data.replace(/RESIST_CDN/g, ''+downloadCDN+'')
+			var result = data.replace(/EMBER_CDN/g, ''+downloadCDN+'')
 
 			fs.writeFile(__dirname+'/app/assets/distribution.json', result, 'utf8', function (err) {
 				if (err) return console.log(err)
