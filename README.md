@@ -17,6 +17,8 @@ Trello - https://www.github.com/Embernite
 
 Discord - https://discord.gg/Z3DkdsX
 
+Twitter - https://www.twitter.com/embernite
+
 [westeroscraftweb]: https://www.westeroscraft.com/
 [westeroscraftgithub]: https://github.com/WesterosCraftCode
 [westeroscraftgithublauncher]: https://github.com/WesterosCraftCode/ElectronLauncher
