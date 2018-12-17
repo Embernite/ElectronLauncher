@@ -1,9 +1,12 @@
 const AdmZip                = require('adm-zip')
 const child_process         = require('child_process')
 const crypto                = require('crypto')
-const fs                    = require('fs-extra')
+const fs                    = require('fs')
+const fse                    = require('fs-extra')
+const mkpath                = require('mkdirp')
 const os                    = require('os')
 const path                  = require('path')
+const rimraf                = require('rimraf')
 const {URL}                 = require('url')
 
 const { Library }           = require('./assetguard')
@@ -34,7 +37,8 @@ class ProcessBuilder {
      * Convienence method to run the functions typically used to build a process.
      */
     build(){
-        fs.ensureDirSync(this.gameDir)
+        mkpath.sync(this.gameDir)
+        mkpath.sync(path.join(this.gameDir,'mods-optional'))
         const tempNativePath = path.join(os.tmpdir(), ConfigManager.getTempNativeFolder(), crypto.pseudoRandomBytes(16).toString('hex'))
         process.throwDeprecation = true
         this.setupLiteLoader()
@@ -61,8 +65,8 @@ class ProcessBuilder {
         child.stdout.setEncoding('utf8')
         child.stderr.setEncoding('utf8')
 
-        const loggerMCstdout = LoggerUtil('%c[Minecraft]', 'color: #36b030; font-weight: bold')
-        const loggerMCstderr = LoggerUtil('%c[Minecraft]', 'color: #b03030; font-weight: bold')
+        const loggerMCstdout = LoggerUtil('%c[Embernite.net]', 'color: #36b030; font-weight: bold')
+        const loggerMCstderr = LoggerUtil('%c[Embernite.net]', 'color: #b03030; font-weight: bold')
 
         child.stdout.on('data', (data) => {
             loggerMCstdout.log(data)
@@ -72,7 +76,7 @@ class ProcessBuilder {
         })
         child.on('close', (code, signal) => {
             logger.log('Exited with code', code)
-            fs.remove(tempNativePath, (err) => {
+            rimraf(tempNativePath, (err) => {
                 if(err){
                     logger.warn('Error while deleting temp dir', err)
                 } else {
@@ -144,7 +148,6 @@ class ProcessBuilder {
     resolveModConfiguration(modCfg, mdls){
         let fMods = []
         let lMods = []
-
         for(let mdl of mdls){
             const type = mdl.getType()
             if(type === DistroManager.Types.ForgeMod || type === DistroManager.Types.LiteMod || type === DistroManager.Types.LiteLoader){
@@ -187,22 +190,39 @@ class ProcessBuilder {
         }
 
         const ids = []
+		const requiredFiles = []
         if(type === 'forge'){
             for(let mod of mods){
                 ids.push(mod.getExtensionlessID())
+				//START Embernite.net
+				var targetPath = path.join(mod.getPath().toString().replace('modstore','mods'))
+				var sourcePath = path.join(mod.getPath())
+				//Required Mods
+				fse.copySync(sourcePath, targetPath);
+				requiredFiles.push(mod.getPath())
+				//END Embernite.net
             }
         } else {
             for(let mod of mods){
                 ids.push(mod.getExtensionlessID() + '@' + mod.getExtension())
+				//START Embernite.net
+				var targetPath = mod.getPath().toString().replace('modstore','mods')
+				var sourcePath = mod.getPath()
+				fse.copySync(sourcePath, targetPath);
+				requiredFiles.push(mod.getPath())
+				//END Embernite.net
             }
         }
+		//Now Optional Mods
+		fse.copySync(path.join(this.gameDir,'mods-optional'), path.join(this.gameDir,'mods'))
         modList.modRef = ids
+		modList.requiredFiles = requiredFiles
         
         if(save){
             const json = JSON.stringify(modList, null, 4)
             fs.writeFileSync(type === 'forge' ? this.fmlDir : this.llDir, json, 'UTF-8')
         }
-
+		console.log('modlist:'+modList)
         return modList
     }
 
@@ -223,7 +243,7 @@ class ProcessBuilder {
             this.forgeData.mainClass]
 
         if(process.platform === 'darwin'){
-            args.unshift('-Xdock:name=WesterosCraft')
+            args.unshift('-Xdock:name=Embernite')
             args.unshift('-Xdock:icon=' + path.join(__dirname, '..', 'images', 'minecraft.icns'))
         }
 
@@ -283,8 +303,12 @@ class ProcessBuilder {
                 }
             }
         }
-        mcArgs.push('--modListFile')
-        mcArgs.push('absolute:' + this.fmlDir)
+		 
+		//START Embernite.net
+		//NOTE We also have to supply a version.json inside a Forge distribution with --userProperties {} (No Argument, Empty Array)
+	        //mcArgs.push('--modListFile')
+	        //mcArgs.push('absolute:' + this.fmlDir)
+		//END Embernite.net
 
         if(this.usingLiteLoader){
             mcArgs.push('--modRepo')
@@ -362,7 +386,7 @@ class ProcessBuilder {
         const libs = []
 
         const libArr = this.versionData.libraries
-        fs.ensureDirSync(tempNativePath)
+        mkpath.sync(tempNativePath)
         for(let i=0; i<libArr.length; i++){
             const lib = libArr[i]
             if(Library.validateRules(lib.rules)){
