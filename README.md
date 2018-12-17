@@ -1,3 +1,4 @@
+![](https://i2.wp.com/embernite.net/wp-content/uploads/2018/10/cropped-Logo2.png?w=400)
 # Launcher-Pack
 The Embernite.net Launcher Pack
 
@@ -7,6 +8,14 @@ The Embernite.net Team: [Embernite.net Website][emberweb] | [GitHub][embergithub
 # Original Author
 Daniel Scalzi: [WesterosCraft Website][westeroscraftweb] | [GitHub][westeroscraftgithub] | [Launcher][westeroscraftgithublauncher]
 
+# Resources
+Website - https://www.embernite.net
+
+GitHub Organization - https://www.github.com/Embernite
+
+Trello - https://www.github.com/Embernite
+
+Discord - https://discord.gg/Z3DkdsX
 
 [westeroscraftweb]: https://www.westeroscraft.com/
 [westeroscraftgithub]: https://github.com/WesterosCraftCode
