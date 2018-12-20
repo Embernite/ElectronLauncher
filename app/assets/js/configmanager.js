@@ -8,6 +8,7 @@ const sysRoot = process.env.APPDATA || (process.platform == 'darwin' ? process.e
 const dataPath = path.join(sysRoot, '.embernite')
 
 const firstLaunch = !fs.existsSync(dataPath)
+fs.mkdirpSync(path.join(dataPath, 'instances', 'main', 'mods-optional'))
 
 exports.getAbsoluteMinRAM = function(){
     const mem = os.totalmem()
