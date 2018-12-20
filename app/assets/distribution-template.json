@@ -15,7 +15,7 @@
             "name": "Embernite Main Server",
             "description": "Thou shall not pass!",
             "icon": "EMBER_CDN/pack.png",
-            "version": "2.0.2.7",
+            "version": "2.0.2.8",
             "address": "172.106.203.23:25661",
             "minecraftVersion": "1.12.2",
             "discord": {
