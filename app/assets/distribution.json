@@ -419,21 +419,6 @@
           }
         },
         {
-          "id": "net.embernite:mod:bf6b",
-          "name": "corail_pillar-4.2.1-1.12",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 143863,
-            "path": "/modstore/corail_pillar-4.2.1-1.12.jar",
-            "MD5": "bf6b0ffd7cd90c875f31a8add88f82a8",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/corail_pillar-4.2.1-1.12.jar"
-          }
-        },
-        {
           "id": "net.embernite:mod:fc9f",
           "name": "corail_pillar_extension_chisel-4.0.0-1.12",
           "type": "ForgeMod",
@@ -446,6 +431,21 @@
             "path": "/modstore/corail_pillar_extension_chisel-4.0.0-1.12.jar",
             "MD5": "fc9ff227dbcdf51648b3d6f7af39f207",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/corail_pillar_extension_chisel-4.0.0-1.12.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:bf6b",
+          "name": "corail_pillar-4.2.1-1.12",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 143863,
+            "path": "/modstore/corail_pillar-4.2.1-1.12.jar",
+            "MD5": "bf6b0ffd7cd90c875f31a8add88f82a8",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/corail_pillar-4.2.1-1.12.jar"
           }
         },
         {
@@ -914,21 +914,6 @@
           }
         },
         {
-          "id": "net.embernite:mod:fdbe",
-          "name": "malisiscore-1.12.2-6.4.1-SNAPSHOT",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1879864,
-            "path": "/modstore/malisiscore-1.12.2-6.4.1-SNAPSHOT.jar",
-            "MD5": "fdbe401ea0d23419003344f0ac48c227",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/malisiscore-1.12.2-6.4.1-SNAPSHOT.jar"
-          }
-        },
-        {
           "id": "net.embernite:mod:d5f2",
           "name": "malisisblocks-1.12.2-6.1.0",
           "type": "ForgeMod",
@@ -941,6 +926,21 @@
             "path": "/modstore/malisisblocks-1.12.2-6.1.0.jar",
             "MD5": "d5f2cc7c9859952dddcf9e03a2875041",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/malisisblocks-1.12.2-6.1.0.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:fdbe",
+          "name": "malisiscore-1.12.2-6.4.1-SNAPSHOT",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1879864,
+            "path": "/modstore/malisiscore-1.12.2-6.4.1-SNAPSHOT.jar",
+            "MD5": "fdbe401ea0d23419003344f0ac48c227",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/malisiscore-1.12.2-6.4.1-SNAPSHOT.jar"
           }
         },
         {
@@ -1079,21 +1079,6 @@
           }
         },
         {
-          "id": "net.embernite:mod:97ff",
-          "name": "NetherPortalFix_1.12.1-5.3.17",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 109445,
-            "path": "/modstore/NetherPortalFix_1.12.1-5.3.17.jar",
-            "MD5": "97ff3e60aa9725cedbc64f19e179f813",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/NetherPortalFix_1.12.1-5.3.17.jar"
-          }
-        },
-        {
           "id": "net.embernite:mod:c6aa",
           "name": "OpenBlocks-1.12.2-1.8",
           "type": "ForgeMod",
@@ -1136,6 +1121,21 @@
             "path": "/modstore/OpenModsLib-1.12.2-0.12.1.jar",
             "MD5": "8dc58701a5c48958a68aca418390e4f3",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/OpenModsLib-1.12.2-0.12.1.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:97ff",
+          "name": "NetherPortalFix_1.12.1-5.3.17",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 109445,
+            "path": "/modstore/NetherPortalFix_1.12.1-5.3.17.jar",
+            "MD5": "97ff3e60aa9725cedbc64f19e179f813",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/NetherPortalFix_1.12.1-5.3.17.jar"
           }
         },
         {
@@ -1244,21 +1244,6 @@
           }
         },
         {
-          "id": "net.embernite:mod:7303",
-          "name": "ProjectRed-1.12.2-4.9.1.92-lighting",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 724243,
-            "path": "/modstore/ProjectRed-1.12.2-4.9.1.92-lighting.jar",
-            "MD5": "730390ea1cb64c8bc50c98bcd8ed6b8c",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/ProjectRed-1.12.2-4.9.1.92-lighting.jar"
-          }
-        },
-        {
           "id": "net.embernite:mod:206c",
           "name": "ProjectRed-1.12.2-4.9.1.92-mechanical",
           "type": "ForgeMod",
@@ -1274,18 +1259,18 @@
           }
         },
         {
-          "id": "net.embernite:mod:6d04",
-          "name": "ProjectRed-1.12.2-4.9.1.92-world",
+          "id": "net.embernite:mod:7303",
+          "name": "ProjectRed-1.12.2-4.9.1.92-lighting",
           "type": "ForgeMod",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 501254,
-            "path": "/modstore/ProjectRed-1.12.2-4.9.1.92-world.jar",
-            "MD5": "6d048f2e2eff31376f0f6668e761f5d5",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/ProjectRed-1.12.2-4.9.1.92-world.jar"
+            "size": 724243,
+            "path": "/modstore/ProjectRed-1.12.2-4.9.1.92-lighting.jar",
+            "MD5": "730390ea1cb64c8bc50c98bcd8ed6b8c",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/ProjectRed-1.12.2-4.9.1.92-lighting.jar"
           }
         },
         {
@@ -1316,6 +1301,21 @@
             "path": "/modstore/Quark-r1.5-130.jar",
             "MD5": "df25e642bcde8f609a1044b7007045e3",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/Quark-r1.5-130.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:6d04",
+          "name": "ProjectRed-1.12.2-4.9.1.92-world",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 501254,
+            "path": "/modstore/ProjectRed-1.12.2-4.9.1.92-world.jar",
+            "MD5": "6d048f2e2eff31376f0f6668e761f5d5",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/ProjectRed-1.12.2-4.9.1.92-world.jar"
           }
         },
         {
@@ -1904,21 +1904,6 @@
           }
         },
         {
-          "id": "ctm",
-          "name": "ctm",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 240,
-            "path": "/config/ctm.cfg",
-            "MD5": "ca9092804c3d5576e34098746b2843ff",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/ctm.cfg"
-          }
-        },
-        {
           "id": "csb_armorstand",
           "name": "csb_armorstand",
           "type": "File",
@@ -1931,6 +1916,21 @@
             "path": "/config/csb_armorstand.cfg",
             "MD5": "61dd60ca5901bf99a9d79595823152f8",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/csb_armorstand.cfg"
+          }
+        },
+        {
+          "id": "ctm",
+          "name": "ctm",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 240,
+            "path": "/config/ctm.cfg",
+            "MD5": "ca9092804c3d5576e34098746b2843ff",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/ctm.cfg"
           }
         },
         {
@@ -2489,21 +2489,6 @@
           }
         },
         {
-          "id": "ProjectRedRelocation",
-          "name": "ProjectRedRelocation",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 3757,
-            "path": "/config/ProjectRedRelocation.cfg",
-            "MD5": "b9c500aca4fb74b5397832e73821fb60",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/ProjectRedRelocation.cfg"
-          }
-        },
-        {
           "id": "ptrmodellib",
           "name": "ptrmodellib",
           "type": "File",
@@ -2516,6 +2501,21 @@
             "path": "/config/ptrmodellib.cfg",
             "MD5": "2eb45bb2aa31cce033460493924bf579",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/ptrmodellib.cfg"
+          }
+        },
+        {
+          "id": "ProjectRedRelocation",
+          "name": "ProjectRedRelocation",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 3757,
+            "path": "/config/ProjectRedRelocation.cfg",
+            "MD5": "b9c500aca4fb74b5397832e73821fb60",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/ProjectRedRelocation.cfg"
           }
         },
         {
@@ -2609,21 +2609,6 @@
           }
         },
         {
-          "id": "TinkerModules",
-          "name": "TinkerModules",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 540,
-            "path": "/config/TinkerModules.cfg",
-            "MD5": "b351941a5d213cf85c8243a80091e8fd",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/TinkerModules.cfg"
-          }
-        },
-        {
           "id": "tickprofiler",
           "name": "tickprofiler",
           "type": "File",
@@ -2636,6 +2621,21 @@
             "path": "/config/tickprofiler.cfg",
             "MD5": "0c9ba7322775200973d3ffaa9f200610",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/tickprofiler.cfg"
+          }
+        },
+        {
+          "id": "TinkerModules",
+          "name": "TinkerModules",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 540,
+            "path": "/config/TinkerModules.cfg",
+            "MD5": "b351941a5d213cf85c8243a80091e8fd",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/TinkerModules.cfg"
           }
         },
         {
@@ -2774,6 +2774,66 @@
           }
         },
         {
+          "id": "itemBlacklist",
+          "name": "itemBlacklist",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 679,
+            "path": "/config/jei/itemBlacklist.cfg",
+            "MD5": "d1aa29b95c320167bb4a663534b04114",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/jei/itemBlacklist.cfg"
+          }
+        },
+        {
+          "id": "jei",
+          "name": "jei",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2933,
+            "path": "/config/jei/jei.cfg",
+            "MD5": "6eff5fafc6c41fe390b49f21a1b50bbd",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/jei/jei.cfg"
+          }
+        },
+        {
+          "id": "searchColors",
+          "name": "searchColors",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1994,
+            "path": "/config/jei/searchColors.cfg",
+            "MD5": "585c420ac4e5433c27837a588927a0c0",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/jei/searchColors.cfg"
+          }
+        },
+        {
+          "id": "worldSettings",
+          "name": "worldSettings",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 0,
+            "path": "/config/jei/worldSettings.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/jei/worldSettings.cfg"
+          }
+        },
+        {
           "id": "journeymap.core",
           "name": "journeymap.core",
           "type": "File",
@@ -2909,21 +2969,6 @@
           }
         },
         {
-          "id": "hardmode",
-          "name": "hardmode",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 14042,
-            "path": "/config/opencomputers/hardmode.recipes",
-            "MD5": "7046b0375e503d2c0def6eea4b2858a1",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/opencomputers/hardmode.recipes"
-          }
-        },
-        {
           "id": "peaceful",
           "name": "peaceful",
           "type": "File",
@@ -2936,6 +2981,21 @@
             "path": "/config/opencomputers/peaceful.recipes",
             "MD5": "286d513b9f52868b0991042f18ac3e22",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/opencomputers/peaceful.recipes"
+          }
+        },
+        {
+          "id": "hardmode",
+          "name": "hardmode",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 14042,
+            "path": "/config/opencomputers/hardmode.recipes",
+            "MD5": "7046b0375e503d2c0def6eea4b2858a1",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/opencomputers/hardmode.recipes"
           }
         },
         {
@@ -3059,66 +3119,6 @@
           }
         },
         {
-          "id": "itemBlacklist",
-          "name": "itemBlacklist",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 679,
-            "path": "/config/jei/itemBlacklist.cfg",
-            "MD5": "d1aa29b95c320167bb4a663534b04114",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/jei/itemBlacklist.cfg"
-          }
-        },
-        {
-          "id": "jei",
-          "name": "jei",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2933,
-            "path": "/config/jei/jei.cfg",
-            "MD5": "6eff5fafc6c41fe390b49f21a1b50bbd",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/jei/jei.cfg"
-          }
-        },
-        {
-          "id": "searchColors",
-          "name": "searchColors",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1994,
-            "path": "/config/jei/searchColors.cfg",
-            "MD5": "585c420ac4e5433c27837a588927a0c0",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/jei/searchColors.cfg"
-          }
-        },
-        {
-          "id": "worldSettings",
-          "name": "worldSettings",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 0,
-            "path": "/config/jei/worldSettings.cfg",
-            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/jei/worldSettings.cfg"
-          }
-        },
-        {
           "id": "config",
           "name": "config",
           "type": "File",
@@ -3131,6 +3131,21 @@
             "path": "/config/FastAsyncWorldEdit/config.yml",
             "MD5": "2871e2131041869f83361609b8c7bffa",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/config.yml"
+          }
+        },
+        {
+          "id": "commands",
+          "name": "commands",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 0,
+            "path": "/config/FastAsyncWorldEdit/commands.yml",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/commands.yml"
           }
         },
         {
@@ -3161,21 +3176,6 @@
             "path": "/config/FastAsyncWorldEdit/message.yml",
             "MD5": "a4c18c60638a1d22002fc85ecaf8f082",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/message.yml"
-          }
-        },
-        {
-          "id": "commands",
-          "name": "commands",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 0,
-            "path": "/config/FastAsyncWorldEdit/commands.yml",
-            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/commands.yml"
           }
         },
         {
@@ -3494,21 +3494,6 @@
           }
         },
         {
-          "id": "enchanter",
-          "name": "enchanter",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 7695,
-            "path": "/config/NetherEx/Trades/nex/enchanter.json",
-            "MD5": "919cb2205913549dce52b22c7236c78f",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Trades/nex/enchanter.json"
-          }
-        },
-        {
           "id": "brewer",
           "name": "brewer",
           "type": "File",
@@ -3521,6 +3506,21 @@
             "path": "/config/NetherEx/Trades/nex/brewer.json",
             "MD5": "b4087d0a4a24745d11f612c24643412b",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Trades/nex/brewer.json"
+          }
+        },
+        {
+          "id": "enchanter",
+          "name": "enchanter",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 7695,
+            "path": "/config/NetherEx/Trades/nex/enchanter.json",
+            "MD5": "919cb2205913549dce52b22c7236c78f",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Trades/nex/enchanter.json"
           }
         },
         {
@@ -3638,21 +3638,6 @@
           },
           "artifact": {
             "size": 443,
-            "path": "/config/sponge/worlds/erebus/erebus/dimension.conf",
-            "MD5": "163cae7e4659b2dc9bd95f31cee7a68a",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/worlds/erebus/erebus/dimension.conf"
-          }
-        },
-        {
-          "id": "dimension",
-          "name": "dimension",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 443,
             "path": "/config/sponge/worlds/abyssalcraft/omothol/dimension.conf",
             "MD5": "163cae7e4659b2dc9bd95f31cee7a68a",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/worlds/abyssalcraft/omothol/dimension.conf"
@@ -3713,6 +3698,21 @@
           },
           "artifact": {
             "size": 443,
+            "path": "/config/sponge/worlds/erebus/erebus/dimension.conf",
+            "MD5": "163cae7e4659b2dc9bd95f31cee7a68a",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/worlds/erebus/erebus/dimension.conf"
+          }
+        },
+        {
+          "id": "dimension",
+          "name": "dimension",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 443,
             "path": "/config/sponge/worlds/extrautils2/deep_dark/dimension.conf",
             "MD5": "163cae7e4659b2dc9bd95f31cee7a68a",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/worlds/extrautils2/deep_dark/dimension.conf"
@@ -3758,9 +3758,9 @@
           },
           "artifact": {
             "size": 443,
-            "path": "/config/sponge/worlds/thebetweenlands/betweenlands/dimension.conf",
+            "path": "/config/sponge/worlds/twilightforest/twilight_forest/dimension.conf",
             "MD5": "163cae7e4659b2dc9bd95f31cee7a68a",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/worlds/thebetweenlands/betweenlands/dimension.conf"
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/worlds/twilightforest/twilight_forest/dimension.conf"
           }
         },
         {
@@ -3773,9 +3773,9 @@
           },
           "artifact": {
             "size": 443,
-            "path": "/config/sponge/worlds/twilightforest/twilight_forest/dimension.conf",
+            "path": "/config/sponge/worlds/thebetweenlands/betweenlands/dimension.conf",
             "MD5": "163cae7e4659b2dc9bd95f31cee7a68a",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/worlds/twilightforest/twilight_forest/dimension.conf"
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/worlds/thebetweenlands/betweenlands/dimension.conf"
           }
         },
         {
