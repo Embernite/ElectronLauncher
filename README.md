@@ -2,7 +2,7 @@
 # Launcher-Pack
 The Embernite.net Launcher Pack
 ![](https://i.imgur.com/WGgU7MG.png)
-![](https://i.imgur.com/a21rbrB.png)
+![](https://i.imgur.com/3VyMbFs.png)
 
 # Modification Credits
 The Embernite.net Team: [Embernite.net Website][emberweb] | [GitHub][embergithub] | [Launcher][embergithublauncher]
