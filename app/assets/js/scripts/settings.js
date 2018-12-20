@@ -1059,11 +1059,11 @@ function populateAboutVersionInformation(){
  */
 function populateReleaseNotes(){
     $.ajax({
-        url: 'https://github.com/Embernite/Launcher-Pack/releases.atom',
+        url: 'https://github.com/resist-network/launcher-pack/releases.atom',
         success: (data) => {
             const version = 'v' + remote.app.getVersion()
             const entries = $(data).find('entry')
-            
+
             for(let i=0; i<entries.length; i++){
                 const entry = $(entries[i])
                 let id = entry.find('id').text()
