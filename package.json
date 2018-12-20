@@ -1,13 +1,13 @@
 {
-  "name": "westeroscraftlauncher",
-  "version": "1.2.0",
-  "productName": "WesterosCraft Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "name": "embernitelauncher",
+  "version": "2.0.6",
+  "productName": "Embernite.net Launcher",
+  "description": "Modded Minecraft Launcher for Embernite.net",
+  "author": "Embernite.net (https://www.embernite.net), Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/WesterosCraftCode/ElectronLauncher",
+  "homepage": "https://www.embernite.net",
   "bugs": {
-    "url": "https://github.com/WesterosCraftCode/ElectronLauncher/issues"
+    "url": "https://www.embernite.net"
   },
   "private": true,
   "main": "index.js",
@@ -39,6 +39,7 @@
     "md5-file": "^4.0.0",
     "node-dir": "^0.1.17",
     "request": "^2.88.0",
+    "rimraf": "^2.6.2",
     "semver": "^5.6.0",
     "tar-fs": "^1.16.3",
     "winreg": "^1.2.4"
@@ -51,13 +52,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WesterosCraftCode/ElectronLauncher.git"
+    "url": "git+https://github.com/Embernite/launcher-pack.git"
   },
   "build": {
-    "appId": "westeroscraftlauncher",
-    "productName": "WesterosCraft Launcher",
-    "artifactName": "${productName}.${ext}",
-    "copyright": "Copyright © 2018 WesterosCraft",
+    "appId": "emberniteinstaller",
+    "productName": "Embernite",
+    "artifactName": "${productName} Installer.${ext}",
+    "copyright": "Copyright © 2018 Embernite.net",
     "directories": {
       "buildResources": "build",
       "output": "dist"
@@ -69,7 +70,8 @@
           "arch": "x64"
         }
       ],
-      "icon": "build/icon.ico"
+      "icon": "build/icon.ico",
+	  "publish": ["github"]
     },
     "nsis": {
       "oneClick": false,
@@ -81,15 +83,17 @@
     "mac": {
       "target": "dmg",
       "category": "public.app-category.games",
-      "icon": "build/icon.icns"
+      "icon": "build/icon.icns",
+	  "publish": ["github"]
     },
     "linux": {
       "target": "AppImage",
-      "maintainer": "Daniel Scalzi",
-      "vendor": "WesterosCraft",
-      "synopsis": "Custom Launcher for WesterosCraft",
-      "description": "Custom launcher which allows users to join WesterosCraft. All mods, configurations, and updates are handled automatically.",
-      "category": "Game"
+      "maintainer": "Embernite.net Team",
+      "vendor": "Embernite.net",
+      "synopsis": "Custom Launcher for Embernite.net",
+      "description": "Custom launcher which allows users to join Embernite.net. All mods, configurations, and updates are handled automatically.",
+      "category": "Game",
+	  "publish": ["github"]
     },
     "deb": {
       "compression": "xz",
