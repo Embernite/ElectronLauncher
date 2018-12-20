@@ -1,9 +1,9 @@
 {
   "name": "embernitelauncher",
-  "version": "2.0.6",
-  "productName": "Embernite.net Launcher",
-  "description": "Modded Minecraft Launcher for Embernite.net",
-  "author": "Embernite.net (https://www.embernite.net), Daniel Scalzi (https://github.com/dscalzi/)",
+  "version": "2.0.7",
+  "productName": "Embernite Launcher",
+  "description": "Modded Minecraft Launcher for Embernite Mod Pack & Server",
+  "author": "Embernite Team (https://www.embernite.net), Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
   "homepage": "https://www.embernite.net",
   "bugs": {
@@ -57,7 +57,7 @@
   "build": {
     "appId": "emberniteinstaller",
     "productName": "Embernite",
-    "artifactName": "${productName} Installer.${ext}",
+    "artifactName": "${productName}-Installer.${ext}",
     "copyright": "Copyright © 2018 Embernite.net",
     "directories": {
       "buildResources": "build",
