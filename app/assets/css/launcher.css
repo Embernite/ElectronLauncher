@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'MSans';
-    src: url('../fonts/Microsoft-Sans-Serif.ttf');
+    src: url('../fonts/Avenir-Book.ttf');
 }
 /*******************************************************************************
  *                                                                             *
@@ -2538,7 +2538,7 @@ input:checked + .toggleSwitchSlider:before {
     position: relative;
     /*border: 2px solid white;*/
     box-sizing: border-box;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
 }
 
 /* Logo container styles. */

@@ -1,6 +1,7 @@
 ![](https://i2.wp.com/embernite.net/wp-content/uploads/2018/10/cropped-Logo2.png?w=400)
 # Launcher-Pack
 The Embernite.net Launcher Pack
+![](https://i.imgur.com/a21rbrB.png)
 
 # Modification Credits
 The Embernite.net Team: [Embernite.net Website][emberweb] | [GitHub][embergithub] | [Launcher][embergithublauncher]
