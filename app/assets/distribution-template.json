@@ -1,8 +1,8 @@
 {
     "version": "2.0.0",
     "discord": {
-        "clientId": "0",
-        "smallImageText": "Embernite.net",
+        "clientId": "405098745311657994",
+        "smallImageText": "Embernite",
         "smallImageKey": "ember-logo-512"
     },
     "java": {
@@ -15,12 +15,12 @@
             "name": "Embernite Main Server",
             "description": "Thou shall not pass!",
             "icon": "EMBER_CDN/pack.png",
-            "version": "2.0.1.4",
+            "version": "2.0.1.5",
             "address": "172.106.203.23:25661",
             "minecraftVersion": "1.12.2",
             "discord": {
                 "shortId": "Embernite",
-                "largeImageText": "Embernite.net",
+                "largeImageText": "Embernite",
                 "largeImageKey": "ember-background"
             },
             "mainServer": true,
