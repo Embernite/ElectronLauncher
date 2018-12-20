@@ -13,7 +13,7 @@
         {
             "id": "main",
             "name": "Embernite Main Server",
-            "description": "You shall not pass!",
+            "description": "Thou shall not pass!",
             "icon": "EMBER_CDN/pack.png",
             "version": "2.0.0",
             "address": "game.embernite.net",
