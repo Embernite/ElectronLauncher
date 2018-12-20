@@ -6,7 +6,7 @@ The Embernite.net Launcher Pack
 ![](https://i0.wp.com/www.embernite.net/wp-content/uploads/2018/12/Annotation-2018-12-19-220347.jpg)
 
 # Modification Credits
-The Embernite.net Team: [Embernite.net Website][emberweb] | [GitHub][embergithub] | [Launcher][embergithublauncher]
+The Embernite Team: [Embernite.net Website][emberweb] | [GitHub][embergithub] | [Launcher][embergithublauncher]
 
 # Original Author
 Daniel Scalzi: [WesterosCraft Website][westeroscraftweb] | [GitHub][westeroscraftgithub] | [Launcher][westeroscraftgithublauncher]
