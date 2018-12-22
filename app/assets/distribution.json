@@ -15,7 +15,7 @@
       "name": "Embernite Main Server",
       "description": "Thou shall not pass!",
       "icon": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/pack.png",
-      "version": "2.0.2.12",
+      "version": "2.0.2.13",
       "address": "172.106.203.23:25661",
       "minecraftVersion": "1.12.2",
       "discord": {
@@ -239,6 +239,21 @@
           }
         },
         {
+          "id": "Avenir-Book",
+          "name": "Avenir-Book",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 143212,
+            "path": "/resources/embernite/fonts/Avenir-Book.ttf",
+            "MD5": "2abe39dbdeead39c4bc4f484a550a7b7",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/resources/embernite/fonts/Avenir-Book.ttf"
+          }
+        },
+        {
           "id": "bg",
           "name": "bg",
           "type": "File",
@@ -329,18 +344,18 @@
           }
         },
         {
-          "id": "Avenir-Book",
-          "name": "Avenir-Book",
+          "id": "menu1",
+          "name": "menu1",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 143212,
-            "path": "/resources/embernite/fonts/Avenir-Book.ttf",
-            "MD5": "2abe39dbdeead39c4bc4f484a550a7b7",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/resources/embernite/fonts/Avenir-Book.ttf"
+            "size": 3368952,
+            "path": "/resources/minecraft/sounds/menu/menu1.ogg",
+            "MD5": "a47eca021d233e9335966f350ca04b0d",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/resources/minecraft/sounds/menu/menu1.ogg"
           }
         },
         {
@@ -719,6 +734,21 @@
           }
         },
         {
+          "id": "customloadingscreen",
+          "name": "customloadingscreen",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 554,
+            "path": "/config/customloadingscreen.cfg",
+            "MD5": "e98102189fc1fa7b2ccbf7cc2ef1a789",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/customloadingscreen.cfg"
+          }
+        },
+        {
           "id": "csb_armorstand",
           "name": "csb_armorstand",
           "type": "File",
@@ -749,18 +779,18 @@
           }
         },
         {
-          "id": "customloadingscreen",
-          "name": "customloadingscreen",
+          "id": "CustomNpcs",
+          "name": "CustomNpcs",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 554,
-            "path": "/config/customloadingscreen.cfg",
-            "MD5": "e98102189fc1fa7b2ccbf7cc2ef1a789",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/customloadingscreen.cfg"
+            "size": 1379,
+            "path": "/config/CustomNpcs.cfg",
+            "MD5": "25bdf59611a2f8fbdb0f275d02339641",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/CustomNpcs.cfg"
           }
         },
         {
@@ -779,21 +809,6 @@
           }
         },
         {
-          "id": "CustomNpcs",
-          "name": "CustomNpcs",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1379,
-            "path": "/config/CustomNpcs.cfg",
-            "MD5": "25bdf59611a2f8fbdb0f275d02339641",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/CustomNpcs.cfg"
-          }
-        },
-        {
           "id": "enderstorage",
           "name": "enderstorage",
           "type": "File",
@@ -809,21 +824,6 @@
           }
         },
         {
-          "id": "erebus",
-          "name": "erebus",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1602,
-            "path": "/config/erebus.cfg",
-            "MD5": "a283cd9796a4a39cc3940ccbf328aebc",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/erebus.cfg"
-          }
-        },
-        {
           "id": "ErebusEntityDimensions",
           "name": "ErebusEntityDimensions",
           "type": "File",
@@ -836,6 +836,21 @@
             "path": "/config/ErebusEntityDimensions.cfg",
             "MD5": "39308ffe89d57044cd97175e4ee072d3",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/ErebusEntityDimensions.cfg"
+          }
+        },
+        {
+          "id": "erebus",
+          "name": "erebus",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1602,
+            "path": "/config/erebus.cfg",
+            "MD5": "a283cd9796a4a39cc3940ccbf328aebc",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/erebus.cfg"
           }
         },
         {
@@ -1394,21 +1409,6 @@
           }
         },
         {
-          "id": "tconstruct",
-          "name": "tconstruct",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 4362,
-            "path": "/config/tconstruct.cfg",
-            "MD5": "ac7ecbd3e6c39bfb8f417ba03d68383c",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/tconstruct.cfg"
-          }
-        },
-        {
           "id": "teslacorelib",
           "name": "teslacorelib",
           "type": "File",
@@ -1421,6 +1421,21 @@
             "path": "/config/teslacorelib.cfg",
             "MD5": "bb01e9e0da0751388f4a3f901d8c2a76",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/teslacorelib.cfg"
+          }
+        },
+        {
+          "id": "tconstruct",
+          "name": "tconstruct",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 4362,
+            "path": "/config/tconstruct.cfg",
+            "MD5": "ac7ecbd3e6c39bfb8f417ba03d68383c",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/tconstruct.cfg"
           }
         },
         {
@@ -1454,21 +1469,6 @@
           }
         },
         {
-          "id": "twilightforest",
-          "name": "twilightforest",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 7279,
-            "path": "/config/twilightforest.cfg",
-            "MD5": "7c6b252930c06737bd5b8292d0abd394",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/twilightforest.cfg"
-          }
-        },
-        {
           "id": "toastcontrol",
           "name": "toastcontrol",
           "type": "File",
@@ -1481,6 +1481,21 @@
             "path": "/config/toastcontrol.cfg",
             "MD5": "953d51a0f2424adbb27b4b5ff2141308",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/toastcontrol.cfg"
+          }
+        },
+        {
+          "id": "twilightforest",
+          "name": "twilightforest",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 7279,
+            "path": "/config/twilightforest.cfg",
+            "MD5": "7c6b252930c06737bd5b8292d0abd394",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/twilightforest.cfg"
           }
         },
         {
@@ -1529,6 +1544,21 @@
           }
         },
         {
+          "id": "mainmenu",
+          "name": "mainmenu",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 4180,
+            "path": "/config/CustomMainMenu/mainmenu.json",
+            "MD5": "fb7ca2dd90fa266c41af5fe30ed75c05",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/CustomMainMenu/mainmenu.json"
+          }
+        },
+        {
           "id": "supporters",
           "name": "supporters",
           "type": "File",
@@ -1556,21 +1586,6 @@
             "path": "/config/codechicken/supporters.marker",
             "MD5": "3567c5ff660a1e00ea79f767d13b8939",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/codechicken/supporters.marker"
-          }
-        },
-        {
-          "id": "mainmenu",
-          "name": "mainmenu",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 4180,
-            "path": "/config/CustomMainMenu/mainmenu.json",
-            "MD5": "fb7ca2dd90fa266c41af5fe30ed75c05",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/CustomMainMenu/mainmenu.json"
           }
         },
         {
@@ -1664,111 +1679,6 @@
           }
         },
         {
-          "id": "journeymap.core",
-          "name": "journeymap.core",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1876,
-            "path": "/config/JourneyMapDefaults/journeymap.core.config",
-            "MD5": "78d0001e0fdd38ddcd9e933bfffa25ff",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/JourneyMapDefaults/journeymap.core.config"
-          }
-        },
-        {
-          "id": "journeymap.fullmap",
-          "name": "journeymap.fullmap",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 777,
-            "path": "/config/JourneyMapDefaults/journeymap.fullmap.config",
-            "MD5": "640f60e5f7335ed44e2bfcbdfbf07516",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/JourneyMapDefaults/journeymap.fullmap.config"
-          }
-        },
-        {
-          "id": "journeymap.minimap",
-          "name": "journeymap.minimap",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1187,
-            "path": "/config/JourneyMapDefaults/journeymap.minimap.config",
-            "MD5": "e889f34470a1de7281d6c29704536ff5",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/JourneyMapDefaults/journeymap.minimap.config"
-          }
-        },
-        {
-          "id": "journeymap.minimap2",
-          "name": "journeymap.minimap2",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1187,
-            "path": "/config/JourneyMapDefaults/journeymap.minimap2.config",
-            "MD5": "ba1313f4a42f0d9d8ab4695d74786a14",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/JourneyMapDefaults/journeymap.minimap2.config"
-          }
-        },
-        {
-          "id": "journeymap.topo",
-          "name": "journeymap.topo",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1035,
-            "path": "/config/JourneyMapDefaults/journeymap.topo.config",
-            "MD5": "ae6f8423453d89640c2f3d095bf93ec8",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/JourneyMapDefaults/journeymap.topo.config"
-          }
-        },
-        {
-          "id": "journeymap.waypoint",
-          "name": "journeymap.waypoint",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 583,
-            "path": "/config/JourneyMapDefaults/journeymap.waypoint.config",
-            "MD5": "7c7b1a8c57dff82ac3dbbd74f50576d0",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/JourneyMapDefaults/journeymap.waypoint.config"
-          }
-        },
-        {
-          "id": "journeymap.webmap",
-          "name": "journeymap.webmap",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 467,
-            "path": "/config/JourneyMapDefaults/journeymap.webmap.config",
-            "MD5": "f3b51101f3a402b23964ec9cab1456b4",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/JourneyMapDefaults/journeymap.webmap.config"
-          }
-        },
-        {
           "id": "itemBlacklist",
           "name": "itemBlacklist",
           "type": "File",
@@ -1829,18 +1739,123 @@
           }
         },
         {
-          "id": "default",
-          "name": "default",
+          "id": "journeymap.core",
+          "name": "journeymap.core",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 22901,
-            "path": "/config/opencomputers/default.recipes",
-            "MD5": "2dad7089d54fa88c69bd288e1e709f1e",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/opencomputers/default.recipes"
+            "size": 1876,
+            "path": "/config/JourneyMapDefaults/journeymap.core.config",
+            "MD5": "78d0001e0fdd38ddcd9e933bfffa25ff",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/JourneyMapDefaults/journeymap.core.config"
+          }
+        },
+        {
+          "id": "journeymap.fullmap",
+          "name": "journeymap.fullmap",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 777,
+            "path": "/config/JourneyMapDefaults/journeymap.fullmap.config",
+            "MD5": "640f60e5f7335ed44e2bfcbdfbf07516",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/JourneyMapDefaults/journeymap.fullmap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap2",
+          "name": "journeymap.minimap2",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1187,
+            "path": "/config/JourneyMapDefaults/journeymap.minimap2.config",
+            "MD5": "ba1313f4a42f0d9d8ab4695d74786a14",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/JourneyMapDefaults/journeymap.minimap2.config"
+          }
+        },
+        {
+          "id": "journeymap.topo",
+          "name": "journeymap.topo",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1035,
+            "path": "/config/JourneyMapDefaults/journeymap.topo.config",
+            "MD5": "ae6f8423453d89640c2f3d095bf93ec8",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/JourneyMapDefaults/journeymap.topo.config"
+          }
+        },
+        {
+          "id": "journeymap.waypoint",
+          "name": "journeymap.waypoint",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 583,
+            "path": "/config/JourneyMapDefaults/journeymap.waypoint.config",
+            "MD5": "7c7b1a8c57dff82ac3dbbd74f50576d0",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/JourneyMapDefaults/journeymap.waypoint.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap",
+          "name": "journeymap.minimap",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1187,
+            "path": "/config/JourneyMapDefaults/journeymap.minimap.config",
+            "MD5": "e889f34470a1de7281d6c29704536ff5",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/JourneyMapDefaults/journeymap.minimap.config"
+          }
+        },
+        {
+          "id": "journeymap.webmap",
+          "name": "journeymap.webmap",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 467,
+            "path": "/config/JourneyMapDefaults/journeymap.webmap.config",
+            "MD5": "f3b51101f3a402b23964ec9cab1456b4",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/JourneyMapDefaults/journeymap.webmap.config"
+          }
+        },
+        {
+          "id": "hardmode",
+          "name": "hardmode",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 14042,
+            "path": "/config/opencomputers/hardmode.recipes",
+            "MD5": "7046b0375e503d2c0def6eea4b2858a1",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/opencomputers/hardmode.recipes"
           }
         },
         {
@@ -1859,18 +1874,18 @@
           }
         },
         {
-          "id": "hardmode",
-          "name": "hardmode",
+          "id": "default",
+          "name": "default",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 14042,
-            "path": "/config/opencomputers/hardmode.recipes",
-            "MD5": "7046b0375e503d2c0def6eea4b2858a1",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/opencomputers/hardmode.recipes"
+            "size": 22901,
+            "path": "/config/opencomputers/default.recipes",
+            "MD5": "2dad7089d54fa88c69bd288e1e709f1e",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/opencomputers/default.recipes"
           }
         },
         {
@@ -1919,6 +1934,21 @@
           }
         },
         {
+          "id": "smoothfont",
+          "name": "smoothfont",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 10010,
+            "path": "/config/smoothfont/smoothfont.cfg",
+            "MD5": "fa4a08b7e027ac9be39c104eccdbae29",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/smoothfont/smoothfont.cfg"
+          }
+        },
+        {
           "id": "randomtweaks",
           "name": "randomtweaks",
           "type": "File",
@@ -1949,18 +1979,18 @@
           }
         },
         {
-          "id": "smoothfont",
-          "name": "smoothfont",
+          "id": "worldedit",
+          "name": "worldedit",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 10010,
-            "path": "/config/smoothfont/smoothfont.cfg",
-            "MD5": "fa4a08b7e027ac9be39c104eccdbae29",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/smoothfont/smoothfont.cfg"
+            "size": 986,
+            "path": "/config/worldedit/worldedit.properties",
+            "MD5": "5f4bf0f2c1fa751e0c8bd855b69e5a94",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/worldedit/worldedit.properties"
           }
         },
         {
@@ -1991,21 +2021,6 @@
             "path": "/config/thebetweenlands/config_version",
             "MD5": "47cd76e43f74bbc2e1baaf194d07e1fa",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/thebetweenlands/config_version"
-          }
-        },
-        {
-          "id": "worldedit",
-          "name": "worldedit",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 986,
-            "path": "/config/worldedit/worldedit.properties",
-            "MD5": "5f4bf0f2c1fa751e0c8bd855b69e5a94",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/worldedit/worldedit.properties"
           }
         },
         {
@@ -2077,10 +2092,10 @@
             "def": true
           },
           "artifact": {
-            "size": 18549,
-            "path": "/config/FastAsyncWorldEdit/de/message.yml",
-            "MD5": "01429bc29b4af0759482a600c9177cb7",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/de/message.yml"
+            "size": 14596,
+            "path": "/config/FastAsyncWorldEdit/cn/message.yml",
+            "MD5": "323e359e91ec7ba3d543a5b6888b1e27",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/cn/message.yml"
           }
         },
         {
@@ -2092,10 +2107,10 @@
             "def": true
           },
           "artifact": {
-            "size": 14596,
-            "path": "/config/FastAsyncWorldEdit/cn/message.yml",
-            "MD5": "323e359e91ec7ba3d543a5b6888b1e27",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/cn/message.yml"
+            "size": 17426,
+            "path": "/config/FastAsyncWorldEdit/es/message.yml",
+            "MD5": "bfc98c0ce733dfdef2e8e49db09d24fd",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/es/message.yml"
           }
         },
         {
@@ -2122,10 +2137,10 @@
             "def": true
           },
           "artifact": {
-            "size": 17426,
-            "path": "/config/FastAsyncWorldEdit/es/message.yml",
-            "MD5": "bfc98c0ce733dfdef2e8e49db09d24fd",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/es/message.yml"
+            "size": 18549,
+            "path": "/config/FastAsyncWorldEdit/de/message.yml",
+            "MD5": "01429bc29b4af0759482a600c9177cb7",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/de/message.yml"
           }
         },
         {
@@ -2141,6 +2156,36 @@
             "path": "/config/FastAsyncWorldEdit/fr/message.yml",
             "MD5": "530a9ba889e177c3efd5b3b1a589effc",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/fr/message.yml"
+          }
+        },
+        {
+          "id": "commands",
+          "name": "commands",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 41073,
+            "path": "/config/FastAsyncWorldEdit/ru/commands.yml",
+            "MD5": "344058b090f74d2a7fc7cd7f47a235fb",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/ru/commands.yml"
+          }
+        },
+        {
+          "id": "message",
+          "name": "message",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 23740,
+            "path": "/config/FastAsyncWorldEdit/ru/message.yml",
+            "MD5": "9903654c78e462df635561c67878a3b3",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/ru/message.yml"
           }
         },
         {
@@ -2174,36 +2219,6 @@
           }
         },
         {
-          "id": "message",
-          "name": "message",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 23740,
-            "path": "/config/FastAsyncWorldEdit/ru/message.yml",
-            "MD5": "9903654c78e462df635561c67878a3b3",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/ru/message.yml"
-          }
-        },
-        {
-          "id": "commands",
-          "name": "commands",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 41073,
-            "path": "/config/FastAsyncWorldEdit/ru/commands.yml",
-            "MD5": "344058b090f74d2a7fc7cd7f47a235fb",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/FastAsyncWorldEdit/ru/commands.yml"
-          }
-        },
-        {
           "id": "nex",
           "name": "nex",
           "type": "File",
@@ -2216,6 +2231,156 @@
             "path": "/config/NetherEx/nex.cfg",
             "MD5": "a3dd37e8477b457c81184aaf4c710235",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/nex.cfg"
+          }
+        },
+        {
+          "id": "corrupted_sands",
+          "name": "corrupted_sands",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 92,
+            "path": "/config/NetherEx/Biomes/biomesoplenty/corrupted_sands.json",
+            "MD5": "eaa2fa1b7862cea3c3b4193211447796",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/biomesoplenty/corrupted_sands.json"
+          }
+        },
+        {
+          "id": "fungi_forest",
+          "name": "fungi_forest",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 89,
+            "path": "/config/NetherEx/Biomes/biomesoplenty/fungi_forest.json",
+            "MD5": "1d5b80d3d6cf056a1622a7f9693ceb9e",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/biomesoplenty/fungi_forest.json"
+          }
+        },
+        {
+          "id": "phantasmagoric_inferno",
+          "name": "phantasmagoric_inferno",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 99,
+            "path": "/config/NetherEx/Biomes/biomesoplenty/phantasmagoric_inferno.json",
+            "MD5": "19d26440cafb8876754637fbe968e06d",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/biomesoplenty/phantasmagoric_inferno.json"
+          }
+        },
+        {
+          "id": "undergarden",
+          "name": "undergarden",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 88,
+            "path": "/config/NetherEx/Biomes/biomesoplenty/undergarden.json",
+            "MD5": "dfee79d03235e90b5d85e239ceb81cbb",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/biomesoplenty/undergarden.json"
+          }
+        },
+        {
+          "id": "visceral_heap",
+          "name": "visceral_heap",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 90,
+            "path": "/config/NetherEx/Biomes/biomesoplenty/visceral_heap.json",
+            "MD5": "44870f4b428b5622ed4a386e018f8c79",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/biomesoplenty/visceral_heap.json"
+          }
+        },
+        {
+          "id": "arctic_abyss",
+          "name": "arctic_abyss",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 4226,
+            "path": "/config/NetherEx/Biomes/nex/arctic_abyss.json",
+            "MD5": "37a1d86850a00ae538dd727b42f5b22c",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/nex/arctic_abyss.json"
+          }
+        },
+        {
+          "id": "fungi_forest",
+          "name": "fungi_forest",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 4928,
+            "path": "/config/NetherEx/Biomes/nex/fungi_forest.json",
+            "MD5": "5f3eed88eba89d0fee7b8b913bd9f170",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/nex/fungi_forest.json"
+          }
+        },
+        {
+          "id": "ruthless_sands",
+          "name": "ruthless_sands",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 4102,
+            "path": "/config/NetherEx/Biomes/nex/ruthless_sands.json",
+            "MD5": "bb84c21df0e644b17921e7b347d37553",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/nex/ruthless_sands.json"
+          }
+        },
+        {
+          "id": "torrid_wasteland",
+          "name": "torrid_wasteland",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 5759,
+            "path": "/config/NetherEx/Biomes/nex/torrid_wasteland.json",
+            "MD5": "80b82ee0d9a99d93d4008482c980c6a7",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/nex/torrid_wasteland.json"
+          }
+        },
+        {
+          "id": "hell",
+          "name": "hell",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 7527,
+            "path": "/config/NetherEx/Biomes/minecraft/hell.json",
+            "MD5": "b439a5f23dd10e99d3259e80ccf14a59",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/minecraft/hell.json"
           }
         },
         {
@@ -2324,171 +2489,6 @@
           }
         },
         {
-          "id": "corrupted_sands",
-          "name": "corrupted_sands",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 92,
-            "path": "/config/NetherEx/Biomes/biomesoplenty/corrupted_sands.json",
-            "MD5": "eaa2fa1b7862cea3c3b4193211447796",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/biomesoplenty/corrupted_sands.json"
-          }
-        },
-        {
-          "id": "fungi_forest",
-          "name": "fungi_forest",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 89,
-            "path": "/config/NetherEx/Biomes/biomesoplenty/fungi_forest.json",
-            "MD5": "1d5b80d3d6cf056a1622a7f9693ceb9e",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/biomesoplenty/fungi_forest.json"
-          }
-        },
-        {
-          "id": "phantasmagoric_inferno",
-          "name": "phantasmagoric_inferno",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 99,
-            "path": "/config/NetherEx/Biomes/biomesoplenty/phantasmagoric_inferno.json",
-            "MD5": "19d26440cafb8876754637fbe968e06d",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/biomesoplenty/phantasmagoric_inferno.json"
-          }
-        },
-        {
-          "id": "undergarden",
-          "name": "undergarden",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 88,
-            "path": "/config/NetherEx/Biomes/biomesoplenty/undergarden.json",
-            "MD5": "dfee79d03235e90b5d85e239ceb81cbb",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/biomesoplenty/undergarden.json"
-          }
-        },
-        {
-          "id": "visceral_heap",
-          "name": "visceral_heap",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 90,
-            "path": "/config/NetherEx/Biomes/biomesoplenty/visceral_heap.json",
-            "MD5": "44870f4b428b5622ed4a386e018f8c79",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/biomesoplenty/visceral_heap.json"
-          }
-        },
-        {
-          "id": "hell",
-          "name": "hell",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 7527,
-            "path": "/config/NetherEx/Biomes/minecraft/hell.json",
-            "MD5": "b439a5f23dd10e99d3259e80ccf14a59",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/minecraft/hell.json"
-          }
-        },
-        {
-          "id": "arctic_abyss",
-          "name": "arctic_abyss",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 4226,
-            "path": "/config/NetherEx/Biomes/nex/arctic_abyss.json",
-            "MD5": "37a1d86850a00ae538dd727b42f5b22c",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/nex/arctic_abyss.json"
-          }
-        },
-        {
-          "id": "fungi_forest",
-          "name": "fungi_forest",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 4928,
-            "path": "/config/NetherEx/Biomes/nex/fungi_forest.json",
-            "MD5": "5f3eed88eba89d0fee7b8b913bd9f170",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/nex/fungi_forest.json"
-          }
-        },
-        {
-          "id": "ruthless_sands",
-          "name": "ruthless_sands",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 4102,
-            "path": "/config/NetherEx/Biomes/nex/ruthless_sands.json",
-            "MD5": "bb84c21df0e644b17921e7b347d37553",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/nex/ruthless_sands.json"
-          }
-        },
-        {
-          "id": "torrid_wasteland",
-          "name": "torrid_wasteland",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 5759,
-            "path": "/config/NetherEx/Biomes/nex/torrid_wasteland.json",
-            "MD5": "80b82ee0d9a99d93d4008482c980c6a7",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/NetherEx/Biomes/nex/torrid_wasteland.json"
-          }
-        },
-        {
-          "id": "custom_data",
-          "name": "custom_data",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2147,
-            "path": "/config/sponge/custom_data.conf",
-            "MD5": "eaf644b55afc05e1705cea966155605f",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/custom_data.conf"
-          }
-        },
-        {
           "id": "global",
           "name": "global",
           "type": "File",
@@ -2516,6 +2516,21 @@
             "path": "/config/sponge/tracker.conf",
             "MD5": "a17dd5057e2b0207957275db135e7b3e",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/tracker.conf"
+          }
+        },
+        {
+          "id": "custom_data",
+          "name": "custom_data",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2147,
+            "path": "/config/sponge/custom_data.conf",
+            "MD5": "eaf644b55afc05e1705cea966155605f",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/custom_data.conf"
           }
         },
         {
@@ -2588,9 +2603,9 @@
           },
           "artifact": {
             "size": 587,
-            "path": "/config/sponge/worlds/extrautils2/deep_dark/dimension.conf",
+            "path": "/config/sponge/worlds/erebus/erebus/dimension.conf",
             "MD5": "2028e4ab0ea74e96282ac60f0e9aafdd",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/worlds/extrautils2/deep_dark/dimension.conf"
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/worlds/erebus/erebus/dimension.conf"
           }
         },
         {
@@ -2618,9 +2633,9 @@
           },
           "artifact": {
             "size": 587,
-            "path": "/config/sponge/worlds/erebus/erebus/dimension.conf",
+            "path": "/config/sponge/worlds/extrautils2/deep_dark/dimension.conf",
             "MD5": "2028e4ab0ea74e96282ac60f0e9aafdd",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/worlds/erebus/erebus/dimension.conf"
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/config/sponge/worlds/extrautils2/deep_dark/dimension.conf"
           }
         },
         {
@@ -3119,21 +3134,6 @@
           }
         },
         {
-          "id": "net.embernite:mod:d7d6",
-          "name": "EnderStorage-1.12.2-2.4.5.135-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 223227,
-            "path": "/modstore/EnderStorage-1.12.2-2.4.5.135-universal.jar",
-            "MD5": "d7d6b1991449110cfa7b1844b5811f75",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/EnderStorage-1.12.2-2.4.5.135-universal.jar"
-          }
-        },
-        {
           "id": "net.embernite:mod:4711",
           "name": "Erebus-1.0.23",
           "type": "ForgeMod",
@@ -3146,6 +3146,21 @@
             "path": "/modstore/Erebus-1.0.23.jar",
             "MD5": "47114557264cd5406b3926b8d8904886",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/Erebus-1.0.23.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:d7d6",
+          "name": "EnderStorage-1.12.2-2.4.5.135-universal",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 223227,
+            "path": "/modstore/EnderStorage-1.12.2-2.4.5.135-universal.jar",
+            "MD5": "d7d6b1991449110cfa7b1844b5811f75",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/EnderStorage-1.12.2-2.4.5.135-universal.jar"
           }
         },
         {
@@ -3929,21 +3944,6 @@
           }
         },
         {
-          "id": "net.embernite:mod:8641",
-          "name": "SmoothFont-mc1.12.2-1.16.1",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 234312,
-            "path": "/modstore/SmoothFont-mc1.12.2-1.16.1.jar",
-            "MD5": "86410c4f1e5898eece55efae2baf2c14",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/SmoothFont-mc1.12.2-1.16.1.jar"
-          }
-        },
-        {
           "id": "net.embernite:mod:5114",
           "name": "ResourceLoader-MC1.12.1-1.5.3",
           "type": "ForgeMod",
@@ -3956,6 +3956,21 @@
             "path": "/modstore/ResourceLoader-MC1.12.1-1.5.3.jar",
             "MD5": "51141e882f96ce756b9b3d25f2acdf57",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/ResourceLoader-MC1.12.1-1.5.3.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:8641",
+          "name": "SmoothFont-mc1.12.2-1.16.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 234312,
+            "path": "/modstore/SmoothFont-mc1.12.2-1.16.1.jar",
+            "MD5": "86410c4f1e5898eece55efae2baf2c14",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/SmoothFont-mc1.12.2-1.16.1.jar"
           }
         },
         {
@@ -4139,36 +4154,6 @@
           }
         },
         {
-          "id": "net.embernite:mod:5edb",
-          "name": "llibrary-core-1.0.8-1.12.2",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 438404,
-            "path": "/modstore/memory_repo/net/ilexiconn/llibrary-core/1.0.8-1.12.2/llibrary-core-1.0.8-1.12.2.jar",
-            "MD5": "5edb8cbb74f6af4b690f35d652d35e9a",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/memory_repo/net/ilexiconn/llibrary-core/1.0.8-1.12.2/llibrary-core-1.0.8-1.12.2.jar"
-          }
-        },
-        {
-          "id": "net.embernite:mod:30f4",
-          "name": "llibrary-core-1.0.8-1.12.2.jar",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 7850,
-            "path": "/modstore/memory_repo/net/ilexiconn/llibrary-core/1.0.8-1.12.2/llibrary-core-1.0.8-1.12.2.jar.meta",
-            "MD5": "30f478eca6ddc3d30a75dda79f18f589",
-            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/memory_repo/net/ilexiconn/llibrary-core/1.0.8-1.12.2/llibrary-core-1.0.8-1.12.2.jar.meta"
-          }
-        },
-        {
           "id": "net.embernite:mod:9337",
           "name": "ImmersiveEngineering-core-0.12-86",
           "type": "ForgeMod",
@@ -4196,6 +4181,36 @@
             "path": "/modstore/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-86/ImmersiveEngineering-core-0.12-86.jar.meta",
             "MD5": "ab4c5f652d9de71cee83600c0c902425",
             "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-86/ImmersiveEngineering-core-0.12-86.jar.meta"
+          }
+        },
+        {
+          "id": "net.embernite:mod:5edb",
+          "name": "llibrary-core-1.0.8-1.12.2",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 438404,
+            "path": "/modstore/memory_repo/net/ilexiconn/llibrary-core/1.0.8-1.12.2/llibrary-core-1.0.8-1.12.2.jar",
+            "MD5": "5edb8cbb74f6af4b690f35d652d35e9a",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/memory_repo/net/ilexiconn/llibrary-core/1.0.8-1.12.2/llibrary-core-1.0.8-1.12.2.jar"
+          }
+        },
+        {
+          "id": "net.embernite:mod:30f4",
+          "name": "llibrary-core-1.0.8-1.12.2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 7850,
+            "path": "/modstore/memory_repo/net/ilexiconn/llibrary-core/1.0.8-1.12.2/llibrary-core-1.0.8-1.12.2.jar.meta",
+            "MD5": "30f478eca6ddc3d30a75dda79f18f589",
+            "url": "https://raw.githubusercontent.com/Embernite/Mod-Pack/master/mods/memory_repo/net/ilexiconn/llibrary-core/1.0.8-1.12.2/llibrary-core-1.0.8-1.12.2.jar.meta"
           }
         }
       ]
