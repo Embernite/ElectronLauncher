@@ -20,7 +20,7 @@ Trello - https://trello.com/b/3V6Gs4b8/embernite-roadmap
 
 Discord - https://discord.gg/Z3DkdsX
 
-Twitter - https://www.twitter.com/embernite
+Twitter - https://www.twitter.com/embernite_staff
 
 [westeroscraftweb]: https://www.westeroscraft.com/
 [westeroscraftgithub]: https://github.com/WesterosCraftCode
